@@ -39,28 +39,3 @@
 // }
 
 // export default Router;
-
-import React from 'react';
-import { HashRouter, Route, Routes } from 'react-router-dom';
-import App from './App';
-import About from './About';
-import Home from './Home';
-import Products from './Products';
-import ProductDetails from './ProductDetails';
-import ShoppingCart from './Cart';
-
-const Router = () => {
-    return (
-        <HashRouter>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/products" element={<Products />} />
-                <Route path="/products/:id" element={<ProductDetails />} />
-                <Route path="/cart" element={<ShoppingCart />} />
-            </Routes>
-        </HashRouter>
-    );
-};
-
-export default Router;

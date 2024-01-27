@@ -12,7 +12,6 @@ export default function SocialMedia() {
             <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-instagram px-28 text-3xl hover:text-hover-blue"></i>
             </a>
-            {/* Add more social media icons as needed */}
         </div>
     );
 }
